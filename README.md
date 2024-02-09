@@ -58,23 +58,33 @@ Para aquellos que desean registrarse con una tarjeta de débito, se puede utiliz
 
 1. Accede a la [Consola de AWS](https://aws.amazon.com/console/).
    
-3. En el panel de servicios, selecciona **S3** bajo la categoría **Almacenamiento**.
+2. En el panel de servicios, selecciona **S3** bajo la categoría **Almacenamiento**.
 
-4. En el panel de S3, haz clic en **Crear bucket** para iniciar el proceso de creación de un nuevo bucket.
+3. En el panel de S3, haz clic en **Crear bucket** para iniciar el proceso de creación de un nuevo bucket.
 
-3. Ingresa un nombre único para tu bucket. Ten en cuenta que los nombres de los buckets en S3 deben ser únicos en toda la plataforma de AWS.
+4. Ingresa un nombre único para tu bucket. Ten en cuenta que los nombres de los buckets en S3 deben ser únicos en toda la plataforma de AWS.
 
-5. Selecciona la región en la que deseas crear tu bucket. Esto puede estar en la esquina superior derecha de la consola.
+5. Selecciona la región en la que deseas crear tu bucket. 
 
-6. Haz clic en **Siguiente** hasta llegar a la sección de configuración de permisos.
+<p align="center">
+  <img src="https://github.com/jonma0107/aws-react-site/assets/53632260/2c0f1f3a-8a82-43f0-9bf7-540bf33178b5" width="500px">
+</p>
 
-7. Puedes configurar las opciones de configuración de permisos según tus necesidades. Si deseas que tu bucket sea accesible públicamente, asegúrate de establecer las políticas de acceso adecuadas. De lo contrario, configura las políticas de acceso según tus requisitos de seguridad.
+6. Puedes configurar las opciones de configuración de permisos según tus necesidades. Si deseas que tu bucket sea accesible públicamente, asegúrate de establecer las políticas de acceso adecuadas. De lo contrario, configura las políticas de acceso según tus requisitos de seguridad.
 
-8. Haz clic en **Siguiente** hasta llegar a la sección de revisión.
+<p align="center">
+  <img src="https://github.com/jonma0107/aws-react-site/assets/53632260/8aa5eca3-c570-453b-b335-818b11f4592e" width="500px">
+  <img src="https://github.com/jonma0107/aws-react-site/assets/53632260/475dfa0e-e0e7-4bf2-bcb5-e9adb410d6c8" width="500px">
+</p>
 
-9. Revisa la configuración y haz clic en **Crear bucket** para finalizar la creación del bucket.
 
-10. Ahora que tu bucket está creado, puedes seleccionarlo en el panel de S3 y comenzar a cargar tus archivos. Haz clic en **Cargar** para agregar archivos a tu bucket.
+7. Haz clic en **Crear bucket** para finalizar la creación del bucket.
+
+<p align="center">
+  <img src="https://github.com/jonma0107/aws-react-site/assets/53632260/280b06b4-d2a7-4405-99bd-9ac12cab7b30" width="650px">
+</p>
+
+8. Ahora que tu bucket está creado, puedes seleccionarlo en el panel de S3 y comenzar a cargar tus archivos. Haz clic en **Cargar** para agregar archivos a tu bucket. Pero lo haremos 
 
 
 
