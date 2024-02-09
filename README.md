@@ -181,6 +181,33 @@ Ingresa la siguiente información cuando se te solicite:
 - Región predeterminada: La región que deseas utilizar (p. ej., us-east-1).
 - Formato de salida preferido: El formato de salida preferido, como json.
 - Asegúrate de ingresar la información correcta para establecer la configuración de AWS CLI de manera adecuada.
+
+## Acceso a Access Key ID y Secret Access Key en AWS S3 mediante IAM
+
+Para obtener tu Access Key ID y Secret Access Key en AWS S3, sigue estos pasos:
+
+1. Inicia sesión en la [Consola de AWS](https://aws.amazon.com/console/).
+
+2. Navega al servicio **IAM (Identidad y Acceso de AWS)**.
+
+3. En el panel izquierdo, haz clic en **Usuarios** y selecciona **Agregar usuario**.
+
+4. Ingresa un nombre de usuario y configura sla creación del usuario como se muestra en la siguiente imagen.
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/3e2b9023-dde8-417b-86e1-64848df23880)
+
+5. Configura los permisos necesarios para el usuario. Puedes asignar directamente políticas existentes o crear políticas personalizadas para limitar el acceso según tus necesidades.
+
+6. Avanza hasta la revisión y haz clic en **Agregar etiquetas** si lo deseas. Luego, haz clic en **Revisar**.
+
+7. Revisa la configuración y haz clic en **Crear usuario**.
+
+8. Una vez creado el usuario, en la página de confirmación, podrás ver el **Access Key ID** y el **Secret Access Key**. 
+
+**¡Importante!** Guarda estas credenciales de manera segura. Son necesarias para autenticar el acceso a tus recursos de AWS.
+
+Recuerda que estas claves son sensibles y deben ser manejadas con cuidado para garantizar la seguridad de tu cuenta de AWS.
+
    
  
 
