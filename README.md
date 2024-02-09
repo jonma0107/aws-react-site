@@ -149,6 +149,22 @@ Para darle permisos específicos a tu bucket en Amazon S3, puedes seguir estos p
 8. Guarda los cambios realizados en la política del bucket. Al guardar los cambios aparece la regla de la politica del bucket creada. 
 
 ![image](https://github.com/jonma0107/aws-react-site/assets/53632260/64ffb7df-0e91-4ede-a831-4ac61e018bfe)
+
+# Instalación y Uso de AWS CLI para Subir Archivos Estáticos a AWS S3
+
+A continuación, se presentan los pasos para instalar y configurar AWS CLI según las [instrucciones oficiales de AWS](https://docs.aws.amazon.com/es_es/cli/latest/userguide/getting-started-install.html):
+
+## Instalación de AWS CLI:
+
+1. Abre tu terminal.
+
+2. Sigue las instrucciones proporcionadas en la [página oficial de instalación de AWS CLI](https://docs.aws.amazon.com/es_es/cli/latest/userguide/install-cliv2.html) para tu sistema operativo específico.
+
+3. Verifica la instalación ejecutando el siguiente comando:
+
+   ```bash
+   aws --version
+   ```
  
 
 
