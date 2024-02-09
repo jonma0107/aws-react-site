@@ -196,13 +196,11 @@ Para obtener tu Access Key ID y Secret Access Key en AWS S3, sigue estos pasos:
 
 ![image](https://github.com/jonma0107/aws-react-site/assets/53632260/3e2b9023-dde8-417b-86e1-64848df23880)
 
-5. Configura los permisos necesarios para el usuario. Puedes asignar directamente políticas existentes o crear políticas personalizadas para limitar el acceso según tus necesidades.
+5. Revisa la configuración y haz clic en **Crear usuario**.
 
-6. Avanza hasta la revisión y haz clic en **Agregar etiquetas** si lo deseas. Luego, haz clic en **Revisar**.
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/77f8055b-233e-46fa-a9c3-62ab9fa9f789)
 
-7. Revisa la configuración y haz clic en **Crear usuario**.
-
-8. Una vez creado el usuario, en la página de confirmación, podrás ver el **Access Key ID** y el **Secret Access Key**. 
+6. Una vez creado el usuario, en la página de confirmación, podrás ver el **Access Key ID** y el **Secret Access Key**. 
 
 **¡Importante!** Guarda estas credenciales de manera segura. Son necesarias para autenticar el acceso a tus recursos de AWS.
 
