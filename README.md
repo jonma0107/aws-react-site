@@ -228,9 +228,9 @@ La información de las llaves de acceso, una vez obtenida, se agrega a la config
 
 Recuerda que estas claves son sensibles y deben ser manejadas con cuidado para garantizar la seguridad de tu cuenta de AWS.
 
-# Creación de Grupo e Asociación de Usuario en IAM
+# Creación de Grupo y Asociación de Usuario en IAM
 
-Para crear un grupo e asociar un usuario en IAM en AWS, sigue estos pasos:
+Para crear un grupo y asociar un usuario en IAM en AWS, sigue estos pasos:
 
 1. Inicia sesión en la [Consola de AWS](https://aws.amazon.com/console/).
 
