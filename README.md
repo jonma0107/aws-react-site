@@ -200,7 +200,30 @@ Para obtener tu Access Key ID y Secret Access Key en AWS S3, sigue estos pasos:
 
 ![image](https://github.com/jonma0107/aws-react-site/assets/53632260/77f8055b-233e-46fa-a9c3-62ab9fa9f789)
 
-6. Una vez creado el usuario, en la página de confirmación, podrás ver el **Access Key ID** y el **Secret Access Key**. 
+6. Una vez creado el usuario, en la página de confirmación, accedemos a ese usuario y nos desplazamos hasta la pestaña llamada **Credenciales de Seguridad**.
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/9f81ab58-0580-4fde-8feb-c528a2c3d6c9)
+
+7. Dentro de la pestaña **Credenciales de Seguridad** hacer scroll hacia abajo hasta la sección **Claves de Acceso** y dar click en el cotón **Crear Clave de Acceso**
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/db408754-ea97-4afa-8cc9-dd30c645b3d9)
+
+8. Dentro de **Crear Clave de Acceso** configurar la creación de la clave como se muestra en la siguiente imagen
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/c2506267-b902-48ab-88f2-0f9ade235f2e)
+
+9. 
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/679e242e-1f3c-434c-8c42-5f61d2d8656c)
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/7c299ed5-82d4-4db0-b6ef-c7a5856dbabc)
+
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/f61b58e3-2ef0-4ce7-954f-5fdbcfb2b2a6)
+
+
+
+ 
 
 **¡Importante!** Guarda estas credenciales de manera segura. Son necesarias para autenticar el acceso a tus recursos de AWS.
 
