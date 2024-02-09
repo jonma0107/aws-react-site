@@ -48,7 +48,7 @@ Amazon S3, o Amazon Simple Storage Service, es un servicio de almacenamiento en 
 
 # Proceso de AWS - Configuración en la Consola de AWS para S3
 
-Antes de comenzar con la configuración en la consola de AWS para AWS S3, asegúrate de tener una cuenta de AWS con privilegios de root y en la capa gratuita. Si aún no tienes una cuenta, puedes registrarte [aquí]([https://aws.amazon.com/](https://aws.amazon.com/es/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all)) y obtener más información .
+Antes de comenzar con la configuración en la consola de AWS para AWS S3, asegúrate de tener una cuenta de AWS con privilegios de root y en la capa gratuita. Si aún no tienes una cuenta, puedes registrarte [aquí](https://aws.amazon.com/es/free/) y obtener más información .
 
 ### Consejo para Registrarse con Tarjeta Débito:
 
