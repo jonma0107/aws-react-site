@@ -283,7 +283,9 @@ Asegúrate de haber instalado y configurado AWS CLI según los pasos anteriores.
   <img src="https://github.com/jonma0107/aws-react-site/assets/53632260/632acf08-9286-4e28-8ac2-4bd3872a6d3e" width="800px">
 </p>
 
-Listo. Con estos pasos, tus archivos estáticos estarán disponibles en tu bucket S3. Puedes acceder a ellos a través de la URL proporcionada por AWS S3.
+Listo! Con estos pasos, tus archivos estáticos estarán disponibles en tu bucket S3. Puedes acceder a ellos a través de la URL proporcionada por AWS S3. Todo esto es simplemente para una aplicación de frontend que no necesita conectarse a un backend. Próximamente subiré un proyecto en dónde haya una integración de los tres módulos: Frontend, Backend y DataBase.
+
+
 
 
 
