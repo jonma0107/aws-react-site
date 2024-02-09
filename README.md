@@ -88,9 +88,24 @@ Ahora que tu bucket está creado, puedes seleccionarlo en el panel de S3 y comen
 
 # Generar la URL que se utilizará para acceder a la aplicación
 
-1. Obtén la URL de tu bucket S3 accediendo a la pestaña **Propiedades**.
-2. Selecciona la opción **Sitio web estático**.
-3. Luego, haz clic en el botón **Editar** para habilitar la funcionalidad del sitio web estático. 
+1. Obtén la URL de tu bucket S3 seleccinando el nombre del bucket creado y accediendo en el para encontrarse con el tablero de opciones del cual elegimos  la pestaña **Propiedades**.
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/975085cc-cb8d-48e8-ab5a-26e2284c4175)
+
+2. Dentro de la pestaña **Propiedades** se desplaza hacia abajo hasta llegar a una sección llamada **Sitio web estático**.
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/a9d7358b-85ee-4f60-9792-a320c1dfd38d)
+
+3. Luego, haz clic en el botón **Editar** para habilitar la funcionalidad del sitio web estático. Una vez dentro de la ventana de edición configuramos la habilitación de la funcionalidad como se muestra en la siguiente imagen y se guardan cambios:
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/43e44469-56df-4d11-9a0a-a82480d00ea1)
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/bb6a9761-ce6d-44d3-b3bf-0a8bf6bfd26b)
+
+
+
+
+
 
 
 
