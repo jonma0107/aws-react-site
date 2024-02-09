@@ -165,6 +165,23 @@ A continuación, se presentan los pasos para instalar y configurar AWS CLI segú
    ```bash
    aws --version
    ```
+   
+## Configuración de AWS CLI con tus Credenciales:
+
+Después de la instalación, ejecuta el siguiente comando y sigue las instrucciones para configurar tus credenciales de AWS:
+
+```bash
+aws configure
+```
+
+Ingresa la siguiente información cuando se te solicite:
+
+- Access Key ID: Tu Access Key ID proporcionada por AWS.
+- Secret Access Key: Tu Secret Access Key proporcionada por AWS.
+- Región predeterminada: La región que deseas utilizar (p. ej., us-east-1).
+- Formato de salida preferido: El formato de salida preferido, como json.
+- Asegúrate de ingresar la información correcta para establecer la configuración de AWS CLI de manera adecuada.
+   
  
 
 
