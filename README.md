@@ -102,6 +102,57 @@ Ahora que tu bucket está creado, puedes seleccionarlo en el panel de S3 y comen
 
 ![image](https://github.com/jonma0107/aws-react-site/assets/53632260/bb6a9761-ce6d-44d3-b3bf-0a8bf6bfd26b)
 
+# Configuración de Permisos para el Bucket en AWS S3
+
+Para darle permisos específicos a tu bucket en Amazon S3, puedes seguir estos pasos:
+
+1. Accede a la consola de AWS y navega hasta el servicio **S3**.
+
+2. Selecciona el bucket al que deseas agregar permisos.
+
+3. Ve a la pestaña **Permisos** y selecciona la opción **Política de bucket**.
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/438c8eaa-58fd-4e10-85d4-201509f912ca)
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/41d47e59-23f9-401c-8c63-bbdd690ee12b)
+
+4. Haz clic en **Editar** para modificar la política del bucket.
+
+5. Copia y pega la siguiente política como ejemplo, ajustando los valores según tus necesidades:
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Statement1",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::nombre-de-tu-bucket/*"
+        }
+    ]
+}
+```
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/baf001ed-c7e5-47ff-9fbf-e68c1aeb3ca3)
+
+
+6. Dentro de la ventana de las políticas del bucket, es muy importante añadir un nuevo recurso (Resource), haz clic en Add a resource. 
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/180568d1-61e2-4b09-9bc4-a53b4d5102eb)
+
+7. Proporciona la URL del recurso o el ARN del recurso al que deseas otorgar permisos y configura según como se muestra en la imagen
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/12a582a2-8271-49b8-b17e-60dd45a63a06)
+
+8. Guarda los cambios realizados en la política del bucket. Al guardar los cambios aparece la regla de la politica del bucket creada. 
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/64ffb7df-0e91-4ede-a831-4ac61e018bfe)
+ 
+
+
+
 
 
 
