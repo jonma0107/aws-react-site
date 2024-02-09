@@ -86,7 +86,7 @@ Para aquellos que desean registrarse con una tarjeta de débito, se puede utiliz
 
 Ahora que tu bucket está creado, puedes seleccionarlo en el panel de S3 y comenzar a cargar tus archivos. Haz clic en **Cargar** para agregar archivos a tu bucket. Pero cargaremos los archivos estáticos de otra manera.
 
-# Generar la URL que se utilizará para acceder a la applicación
+# Generar la URL que se utilizará para acceder a la aplicación
 
 1. Obtén la URL de tu bucket S3 accediendo a la pestaña **Propiedades**.
 2. Selecciona la opción **Sitio web estático**.
