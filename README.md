@@ -212,14 +212,25 @@ Para obtener tu Access Key ID y Secret Access Key en AWS S3, sigue estos pasos:
 
 ![image](https://github.com/jonma0107/aws-react-site/assets/53632260/c2506267-b902-48ab-88f2-0f9ade235f2e)
 
-9. 
+9. Al dar **Siguiente** nos lleva a la siguiente ventana en la cuál solo daremos click en el botón **Crear Clave de Acceso**
 
-![image](https://github.com/jonma0107/aws-react-site/assets/53632260/679e242e-1f3c-434c-8c42-5f61d2d8656c)
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/7c299ed5-82d4-4db0-b6ef-c7a5856dbabc) 
 
-![image](https://github.com/jonma0107/aws-react-site/assets/53632260/7c299ed5-82d4-4db0-b6ef-c7a5856dbabc)
-
+10. Al crear la clave de acceso  podrás ver el **Access Key ID** y el **Secret Access Key**
 
 ![image](https://github.com/jonma0107/aws-react-site/assets/53632260/f61b58e3-2ef0-4ce7-954f-5fdbcfb2b2a6)
+
+La información de las llaves de acceso, una vez obtenida, se agrega a la configuración de AWS CLI:
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/bdb56279-f0be-4cae-9254-bcd667db0f97)
+
+
+
+
+
+
+
+
 
 
 
