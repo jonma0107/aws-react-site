@@ -222,23 +222,36 @@ Para obtener tu Access Key ID y Secret Access Key en AWS S3, sigue estos pasos:
 
 La información de las llaves de acceso, una vez obtenida, se agrega a la configuración de AWS CLI:
 
-![image](https://github.com/jonma0107/aws-react-site/assets/53632260/bdb56279-f0be-4cae-9254-bcd667db0f97)
-
-
-
-
-
-
-
-
-
-
-
- 
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/bdb56279-f0be-4cae-9254-bcd667db0f97) 
 
 **¡Importante!** Guarda estas credenciales de manera segura. Son necesarias para autenticar el acceso a tus recursos de AWS.
 
 Recuerda que estas claves son sensibles y deben ser manejadas con cuidado para garantizar la seguridad de tu cuenta de AWS.
+
+# Creación de Grupo e Asociación de Usuario en IAM
+
+Para crear un grupo e asociar un usuario en IAM en AWS, sigue estos pasos:
+
+1. Inicia sesión en la [Consola de AWS](https://aws.amazon.com/console/).
+
+2. Navega al servicio **IAM (Identidad y Acceso de AWS)**.
+
+3. En el panel izquierdo, haz clic en **Grupos** y selecciona **Crear grupo**.
+
+4. Ingresa un nombre para el grupo y haz clic en **Siguiente pasos**.
+
+5. En la página de **Revisar**, haz clic en **Crear grupo**.
+
+6. Una vez creado el grupo, selecciona el grupo recién creado.
+
+7. En la pestaña **Usuarios**, haz clic en **Agregar usuarios**.
+
+8. Selecciona el usuario que creaste anteriormente y haz clic en **Agregar usuarios**.
+
+Ahora, tu usuario está asociado al grupo que acabas de crear. Los permisos que asignes al grupo se aplicarán automáticamente al usuario asociado.
+
+Ten en cuenta que los grupos en IAM te permiten asignar permisos de manera centralizada a varios usuarios, facilitando la gestión de permisos en entornos con múltiples usuarios. ¡Listo! Ahora tu usuario forma parte del grupo con los permisos necesarios.
+
 
    
  
