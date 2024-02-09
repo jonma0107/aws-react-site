@@ -84,8 +84,13 @@ Para aquellos que desean registrarse con una tarjeta de débito, se puede utiliz
   <img src="https://github.com/jonma0107/aws-react-site/assets/53632260/280b06b4-d2a7-4405-99bd-9ac12cab7b30" width="650px">
 </p>
 
-Ahora que tu bucket está creado, puedes seleccionarlo en el panel de S3 y comenzar a cargar tus archivos. Haz clic en **Cargar** para agregar archivos a tu bucket. Pero cargaremos los archivos estáticos de otra manera
+Ahora que tu bucket está creado, puedes seleccionarlo en el panel de S3 y comenzar a cargar tus archivos. Haz clic en **Cargar** para agregar archivos a tu bucket. Pero cargaremos los archivos estáticos de otra manera.
 
+# Generar la URL que se utilizará para acceder a la applicación
+
+1. Obtén la URL de tu bucket S3 accediendo a la pestaña **Propiedades**.
+2. Selecciona la opción **Sitio web estático**.
+3. Luego, haz clic en el botón **Editar** para habilitar la funcionalidad del sitio web estático. 
 
 
 
