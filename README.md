@@ -46,6 +46,36 @@ Esto iniciará el servidor de desarrollo local y podrás acceder a tu aplicació
 
 Amazon S3, o Amazon Simple Storage Service, es un servicio de almacenamiento en la nube proporcionado por Amazon Web Services (AWS). Este servicio permite almacenar y recuperar datos de manera escalable y segura a través de internet. S3 es altamente utilizado para alojar archivos estáticos, almacenar copias de seguridad, distribuir contenido web y como un repositorio de datos para aplicaciones.
 
+# Proceso de AWS - Configuración en la Consola de AWS para S3
+
+Antes de comenzar con la configuración en la consola de AWS para AWS S3, asegúrate de tener una cuenta de AWS con privilegios de root y en la capa gratuita. Si aún no tienes una cuenta, puedes registrarte [aquí]([https://aws.amazon.com/](https://aws.amazon.com/es/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all)) y obtener más información .
+
+### Consejo para Registrarse con Tarjeta Débito:
+
+Para aquellos que desean registrarse con una tarjeta de débito, se puede utilizar el número de tarjeta de débito de Nequi u otras tarjetas que cumplan con los requisitos de AWS.
+
+# Pasos para Configurar AWS S3:
+
+1. Accede a la [Consola de AWS](https://aws.amazon.com/console/).
+   
+3. En el panel de servicios, selecciona **S3** bajo la categoría **Almacenamiento**.
+
+4. En el panel de S3, haz clic en **Crear bucket** para iniciar el proceso de creación de un nuevo bucket.
+
+3. Ingresa un nombre único para tu bucket. Ten en cuenta que los nombres de los buckets en S3 deben ser únicos en toda la plataforma de AWS.
+
+5. Selecciona la región en la que deseas crear tu bucket. Esto puede estar en la esquina superior derecha de la consola.
+
+6. Haz clic en **Siguiente** hasta llegar a la sección de configuración de permisos.
+
+7. Puedes configurar las opciones de configuración de permisos según tus necesidades. Si deseas que tu bucket sea accesible públicamente, asegúrate de establecer las políticas de acceso adecuadas. De lo contrario, configura las políticas de acceso según tus requisitos de seguridad.
+
+8. Haz clic en **Siguiente** hasta llegar a la sección de revisión.
+
+9. Revisa la configuración y haz clic en **Crear bucket** para finalizar la creación del bucket.
+
+10. Ahora que tu bucket está creado, puedes seleccionarlo en el panel de S3 y comenzar a cargar tus archivos. Haz clic en **Cargar** para agregar archivos a tu bucket.
+
 
 
 
