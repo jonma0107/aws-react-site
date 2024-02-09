@@ -70,7 +70,7 @@ Para aquellos que desean registrarse con una tarjeta de débito, se puede utiliz
   <img src="https://github.com/jonma0107/aws-react-site/assets/53632260/2c0f1f3a-8a82-43f0-9bf7-540bf33178b5" width="500px">
 </p>
 
-6. Puedes configurar las opciones de configuración de permisos según tus necesidades. Si deseas que tu bucket sea accesible públicamente, asegúrate de establecer las políticas de acceso adecuadas. De lo contrario, configura las políticas de acceso según tus requisitos de seguridad.
+6. Puedes configurar las opciones de configuración de permisos según tus necesidades. Si deseas que tu bucket sea accesible públicamente, asegúrate de establecer las políticas de acceso adecuadas. De lo contrario, configura las políticas de acceso según tus requisitos de seguridad. Por lo general los buckets están configurados para que no cualquier usuario pueda acceder a los elementos que allí se guardan, está bloqueado el acceso público, pero como necesitamos que a nuestro sitio web estático accedan a ver los elementos desde el navegador de internet porque en este caso estamos sirviendo una página web, para ello desmarcamos la casilla como se muestra en la imagen:
 
 <p align="center">
   <img src="https://github.com/jonma0107/aws-react-site/assets/53632260/8aa5eca3-c570-453b-b335-818b11f4592e" width="500px">
@@ -78,13 +78,13 @@ Para aquellos que desean registrarse con una tarjeta de débito, se puede utiliz
 </p>
 
 
-7. Haz clic en **Crear bucket** para finalizar la creación del bucket.
+7. Finalmente no cambiamos nada más en esta sección y hacemos clic en **Crear bucket** para finalizar la creación del bucket y listo tenemos nuestro bucket creado en este caso se llama **react-first-site**.
 
 <p align="center">
   <img src="https://github.com/jonma0107/aws-react-site/assets/53632260/280b06b4-d2a7-4405-99bd-9ac12cab7b30" width="650px">
 </p>
 
-8. Ahora que tu bucket está creado, puedes seleccionarlo en el panel de S3 y comenzar a cargar tus archivos. Haz clic en **Cargar** para agregar archivos a tu bucket. Pero lo haremos 
+Ahora que tu bucket está creado, puedes seleccionarlo en el panel de S3 y comenzar a cargar tus archivos. Haz clic en **Cargar** para agregar archivos a tu bucket. Pero cargaremos los archivos estáticos de otra manera
 
 
 
