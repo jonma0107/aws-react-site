@@ -232,15 +232,25 @@ Recuerda que estas claves son sensibles y deben ser manejadas con cuidado para g
 
 Para crear un grupo y asociar un usuario en IAM en AWS, sigue estos pasos:
 
+Un grupo es una especie de reglas que están agrupadas, y que se pueden reutilizar esas reglas a varios usuarios.
+
 1. Inicia sesión en la [Consola de AWS](https://aws.amazon.com/console/).
 
 2. Navega al servicio **IAM (Identidad y Acceso de AWS)**.
 
-3. En el panel izquierdo, haz clic en **Grupos** y selecciona **Crear grupo**.
+3. En el panel izquierdo, haz clic en **Grupos de Usuarios** y selecciona **Crear grupo**.
 
-4. Ingresa un nombre para el grupo y haz clic en **Siguiente pasos**.
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/5001cb4f-b79e-4f46-8628-b1a4bc792d53)
 
-5. En la página de **Revisar**, haz clic en **Crear grupo**.
+4. Ingresa un nombre para el grupo y desplazate hasta ls siguiente sección **Adjuntar políticas de permisos**.
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/a6cb0714-4bea-469f-b70f-18058b98b207)
+
+5. Una vez en la sección de **Adjuntar políticas de permisos** marcamos las reglas de **AmazonS3FullAccess** y **AmazonS3ReadOnlyAccess** como se muestra en la imagen
+
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/1392c6dc-fe94-44cf-bd0b-b1defda20512)
+
+5. Una vez marcadas las reglas anteriormente mencionadas, hace scroll hacia abajo, y haz clic en **Crear grupo**.
 
 6. Una vez creado el grupo, selecciona el grupo recién creado.
 
@@ -248,9 +258,37 @@ Para crear un grupo y asociar un usuario en IAM en AWS, sigue estos pasos:
 
 8. Selecciona el usuario que creaste anteriormente y haz clic en **Agregar usuarios**.
 
+![image](https://github.com/jonma0107/aws-react-site/assets/53632260/45c7c90f-2c73-4edf-9a06-1f9a9b2d9789)
+
 Ahora, tu usuario está asociado al grupo que acabas de crear. Los permisos que asignes al grupo se aplicarán automáticamente al usuario asociado.
 
 Ten en cuenta que los grupos en IAM te permiten asignar permisos de manera centralizada a varios usuarios, facilitando la gestión de permisos en entornos con múltiples usuarios. ¡Listo! Ahora tu usuario forma parte del grupo con los permisos necesarios.
+
+# Subir Archivos Estáticos a AWS S3 con AWS CLI
+
+Asegúrate de haber instalado y configurado AWS CLI según los pasos anteriores.
+
+## Subir Archivos Estáticos:
+
+1. Abre tu terminal.
+
+2. Navega al directorio donde se encuentran tus archivos estáticos.
+
+3. Ejecuta el siguiente comando para subir un archivo específico a tu bucket S3:
+
+   ```bash
+   aws s3 sync dist/ s3://react-first-site
+   ```
+<p align="center">
+  <img src="https://github.com/jonma0107/aws-react-site/assets/53632260/632acf08-9286-4e28-8ac2-4bd3872a6d3e" width="800px">
+</p>
+
+Listo. Con estos pasos, tus archivos estáticos estarán disponibles en tu bucket S3. Puedes acceder a ellos a través de la URL proporcionada por AWS S3.
+
+
+
+
+
 
 
    
